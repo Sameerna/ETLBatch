@@ -21,14 +21,14 @@ variable "instance_type" {
 
 ## Alert email receiver
 variable "alert_email_id" {
-  description = "Email id to send alerts to "
+  description = "sameernajoshi@gmail.com"
   type        = string
-  default     = "joseph.machado@startdataengineering.com"
+  default     = "sameernajoshi@gmail.com"
 }
 
 ## Your repository url
 variable "repo_url" {
   description = "Repository url to clone into production machine"
   type        = string
-  default     = "https://github.com/josephmachado/data_engineering_project_template.git"
+  default     = "https://github.com/Sameerna/ETLBatch.git"
 }
